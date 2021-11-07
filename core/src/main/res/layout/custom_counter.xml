@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_decrement"
+        android:layout_width="@dimen/counter_w"
+        android:layout_height="@dimen/counter_h"
+        android:src="@drawable/ic_minus"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/border_counter_end"
+
+        />
+    <TextView
+        android:layout_width="@dimen/counter_w"
+        android:layout_height="@dimen/counter_h"
+        android:text="1"
+        android:id="@+id/tv_counter"
+        android:fontFamily="@font/montserratmedium"
+        android:textColor="@color/colorCounter"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/border_counter_center"
+       >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/img_increment"
+        android:layout_width="@dimen/counter_w"
+        android:layout_height="@dimen/counter_h"
+        android:src="@drawable/ic_plus"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/border_counter_start"
+
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

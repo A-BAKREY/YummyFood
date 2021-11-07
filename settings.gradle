@@ -1,0 +1,5 @@
+rootProject.name = "SalesPoint"
+include ':app'
+include ':usecase'
+include ':entities'
+include ':core'

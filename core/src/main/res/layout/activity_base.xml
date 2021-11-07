@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".base.BaseActivity">
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/app_toolbar"
+      android:minHeight="?attr/actionBarSize"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="@color/colorPrimary"
+      android:theme="@style/custom_toolbar"
+      android:gravity="center|start"
+      android:visibility="visible"
+      app:popupTheme="@style/AppTheme.PopupOverlay">
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="@font/mb"
+        android:layout_gravity="center" />
+
+  </androidx.appcompat.widget.Toolbar>
+  <FrameLayout
+      android:id="@+id/flContainer"
+      android:layout_width="match_parent"
+      android:layout_below="@+id/app_toolbar"
+      android:layout_height="match_parent" />
+
+  <include
+      android:id="@+id/errorView"
+      layout="@layout/layout_error"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+  <include
+      android:id="@+id/loadingView"
+      layout="@layout/layout_loading"
+      android:visibility="gone"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+</RelativeLayout>

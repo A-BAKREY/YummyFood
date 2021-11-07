@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CustomView">
+        <attr name="customViewTitle" format="string" />
+        <attr name="customViewedtHint" value="" format="string" />
+        <attr name="customViewedtHintVisible" format="boolean" />
+        <attr name="customViewedtDrwableRight" format="reference" />
+        <attr name="customViewedtDrwableEditBackground" format="reference" />
+        <attr name="customViewIsPassword" format="boolean"/>
+        <attr name="customViewType" value="" format="string"/>
+    </declare-styleable>
+    
+</resources>

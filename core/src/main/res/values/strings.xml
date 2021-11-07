@@ -1,0 +1,25 @@
+<resources>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="forget_pwd_enter_your_email">Enter Email</string>
+    <string name="ok">OK</string>
+    <string name="confirm_exit_app_title">Are you sure to Exit</string>
+    <string name="confirm_exit_app_msg">If yes then application will close</string>
+    <string name="title_activity_app_web_view">AppWebView</string>
+    <string name="plzwait">Please wait</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="base_retry">Retry</string>
+    <string name="global_cant_connect">Cannot Connect</string>
+    <string name="global_tab_to_retry">tap to refresh</string>
+    <string name="no_connection">No Connection</string>
+    <string name="error">Error</string>
+    <string name="network_check_connection">Couldn\'t reach server.\nPlease check your connection and try again.</string>
+    <string name="network_server_unreachable">Something went wrong.\nPlease try again.</string>
+    <string name="network_unexpected_response">Sorry. unexpected response from server.</string>
+    <string name="network_service_error">Error code: %1$d\nError message: %2$s</string>
+    <string name="choose">Choose</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="need_log_in">You Need To LogIn</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

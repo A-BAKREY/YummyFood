@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/public_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/aviLoading"
+         />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/aviLoading"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:indicatorColor="@color/colorBlack"
+        app:indicatorName="BallPulseIndicator"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/retry_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/public_recycler"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mdtp_line_background"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/retry_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="try again"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/retry_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="retry"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvNoDat"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/colorBlack"
+        android:visibility="gone"
+        android:text="@string/no_data_found"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>
