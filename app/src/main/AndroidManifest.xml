@@ -14,6 +14,9 @@
         android:theme="@style/Theme.SalesPoint"
         android:usesCleartextTraffic="true">
         <activity android:name=".auth.ActivityLogin" />
+        <activity
+            android:name="com.expert.salespoint.home.intro.IntroActivity"
+            android:exported="false" />
         <activity android:name=".home.MainActivity" />
         <activity
             android:name=".ActivitySplash"
