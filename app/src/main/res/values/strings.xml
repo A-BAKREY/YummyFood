@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">SalesPoint</string>
+    <string name="app_name">FoodApp</string>
+    <string name="enter_mobile">Enter Mobile</string>
+    <string name="get_code">Get Code</string>
+    <string name="enter_code_here">Enter Code here</string>
+    <string name="verify_and_signin">Verify and Signin</string>
+    <string name="yummy_food">Yummy Food</string>
+    <string name="todo">TODO</string>
+    <string name="this_is_a_rondom_text_apper_in_intro_of_application_only_once">this is a rondom text apper in intro of application only once</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip_this_intro">Skip This Intro</string>
+    <string name="back">back</string>
+    <string name="next">next</string>
+    <string name="skip">skip</string>
 </resources>
